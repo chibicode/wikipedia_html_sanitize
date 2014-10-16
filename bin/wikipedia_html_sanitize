@@ -2,14 +2,14 @@
 
 require 'optparse'
 require 'methadone'
-require 'wikipedia_html_sanitize.rb'
+require 'wikipedia_html_sanitize'
 
 class App
   include Methadone::Main
   include Methadone::CLILogging
 
   main do |slug|
-    WikipediaHtmlSanitize::Sanitize.new(slug).start
+    puts WikipediaHtmlSanitize::Sanitize.new(slug).sanitized_html
     # your program code here
     # You can access CLI options via
     # the options Hash
