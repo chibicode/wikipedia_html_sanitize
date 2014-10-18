@@ -1,3 +1,9 @@
+# Deprecated
+
+I'm using http://github.com/chibicode/wikipedia-html-sanitize instead.
+
+---
+
 # WikipediaHtmlSanitize
 
 TODO: Write a gem description
